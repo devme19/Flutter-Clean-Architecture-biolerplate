@@ -1,4 +1,4 @@
-# flutter_clean_architecture
+# flutter_clean_architecture_biolerplate
 
 This project includes the following:
 - Use dio http client
