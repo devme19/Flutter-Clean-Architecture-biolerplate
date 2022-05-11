@@ -3,7 +3,7 @@
 This project includes the following:
 - GetX StateManagement
 - Use dio http client
-- Error management when using remote data source and local data source
-- Use of Dio Refresh Token Interceptor
-- Use of two themes, Dark and Light
+- Error handling when using remote data source and local data source
+- Use Dio Refresh Token Interceptor
+- Use two themes, Dark and Light
 - MultiLanguage (English and Persian)
