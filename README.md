@@ -1,6 +1,7 @@
 # flutter_clean_architecture_biolerplate
 
 This project includes the following:
+- GetX StateManagement
 - Use dio http client
 - Error management when using remote data source and local data source
 - Use of Dio Refresh Token Interceptor
