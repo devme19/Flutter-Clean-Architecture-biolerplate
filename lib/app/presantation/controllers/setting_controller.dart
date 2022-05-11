@@ -26,11 +26,7 @@ class SettingController extends GetxController{
     getThemeModeUseCase.call(NoParams()).then((response) {
       if(response.isRight){
         isDark.value = response.right;
-        if(isDark.value) {
-          themeMode.value = ThemeMode.dark;
-        }else {
-          themeMode.value = ThemeMode.light;
-        }
+        Get.changeThemeMode(isDark.value?ThemeMode.dark:ThemeMode.light);
       }else if(response.isLeft){
         // CacheException
         print("CacheException");

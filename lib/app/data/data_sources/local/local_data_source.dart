@@ -115,7 +115,7 @@ class AppLocalDateSourceImpl implements AppLocalDataSource {
   @override
   bool getLanguage() {
     try {
-      return box.read(langKey)??false;
+      return box.read(langKey)??true;
     } catch (e) {
       throw CacheException(message: e.toString());
     }
